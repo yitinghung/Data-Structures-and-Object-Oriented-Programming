@@ -71,11 +71,11 @@ int main() {
 ## Problem 2: Polynomial
 This problem asks you to create a class called Polynomial that includes the following functions:   
 * Calculate the value of polynomial.  
-  $\c_0x_n + c_1x_n−1 + ... + c_n−1x + c_n$  
+  $c_0x_n + c_1x_n−1 + ... + c_n−1x + c_n$  
 * Calculate its first derivative.  
-  $\c_0nx_n−1 + c_1(n−1)x_n−2 + ... + c_n−1$  
+  $c_0nx_n−1 + c_1(n−1)x_n−2 + ... + c_n−1$  
 * Calculate its second derivative.  
-  $\c_0n(n − 1)x_n−2 + c_1(n−1)(n−2)x_n−3 + ... + c_n−2$   
+  $c_0n(n − 1)x_n−2 + c_1(n−1)(n−2)x_n−3 + ... + c_n−2$   
    
 
 The class should have:
@@ -92,10 +92,10 @@ vector<int> coef;
 * A function named calculate. The function should calculate the value of the polynomial.  
 * A function named firstDerivative. The function should calculate the first order derivative of the polynomial.  
 * A function named secDerivative. The function should calculate the second order derivative of the polynomial.  
-The absolute value of all the input and output will be less than $2^31.  
+The absolute value of all the input and output will be less than $2^31$.  
 
 ### Input
-Your program should accept an even number of lines of text. Each pair of lines will represent one problem. The first line will contain one integer: the value for x. The second line will contain a string, which represents a set of polynomial coefficients $\(c_0, c_1, c_2, ..., c_n)$. Each coefficient will be seperated by one or more blanks.   
+Your program should accept an even number of lines of text. Each pair of lines will represent one problem. The first line will contain one integer: the value for x. The second line will contain a string, which represents a set of polynomial coefficients $(c_0, c_1, c_2, ..., c_n)$. Each coefficient will be seperated by one or more blanks.   
 Input is terminated by EOF.  
  
 ### Output
