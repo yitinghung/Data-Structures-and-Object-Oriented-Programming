@@ -92,7 +92,7 @@ vector<int> coef;
 * A function named calculate. The function should calculate the value of the polynomial.  
 * A function named firstDerivative. The function should calculate the first order derivative of the polynomial.  
 * A function named secDerivative. The function should calculate the second order derivative of the polynomial.  
-The absolute value of all the input and output will be less than $2^31$.  
+The absolute value of all the input and output will be less than $2^(31)$.  
 
 ### Input
 Your program should accept an even number of lines of text. Each pair of lines will represent one problem. The first line will contain one integer: the value for x. The second line will contain a string, which represents a set of polynomial coefficients $(c_0, c_1, c_2, ..., c_n)$. Each coefficient will be seperated by one or more blanks.   
