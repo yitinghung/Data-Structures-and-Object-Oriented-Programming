@@ -63,7 +63,7 @@ Not Empty
 0 0 0    
 ```
 
-## Sample Output 2:
+## Sample Output 2
 ```
 -99.9_    
 -99.9_     
