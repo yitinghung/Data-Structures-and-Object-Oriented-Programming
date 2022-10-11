@@ -24,7 +24,7 @@ The command will be
 
 Save the compressed file named xxxxx.compress (the original file is xxxxx.txt). The storage location of the compressed file is same as your program.     
 
-* Output message example: *
+**Output message example:**
 ```
 62
 5
@@ -35,7 +35,7 @@ Save the compressed file named xxxxx.compress (the original file is xxxxx.txt). 
 ```
 
 ## Example
-When you compress a text file     
+**When you compress a text file**     
 Example:
 | Input command         | Output message  | Output file     |
 |-----------------------|-----------------|-----------------|
@@ -47,7 +47,7 @@ Example:
 |                       |9                |                 |
 
         
-When you decompress a compressed file
+**When you decompress a compressed file**
 |Input command                  | Output file               |
 |-------------------------------|---------------------------|
 |./decompress filename.compress | filename_decompressed.txt |
