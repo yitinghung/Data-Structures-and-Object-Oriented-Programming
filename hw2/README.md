@@ -9,16 +9,16 @@ Given an integer “x”, you need to find two integers whose product is equal t
 
 ### Explanation
 When input is: 3   
-    x=3  
-       1*3=3 → absolute difference is 2    
-    x+1=4     
-       1*4=4 → absolute difference is 3    
-       2*2=4 → absolute difference is 0     
+> x=3  
+>>> 1\*3=3 → absolute difference is 2    
+> x+1=4     
+>>> 1\*4=4 → absolute difference is 3    
+>>> 2\*2=4 → absolute difference is 0     
       
 Hence these two integers (2 and 2) have the minimum absolute difference 0 when input is 3.   
 
 ### Input
-Your program should accept an integer in the range between $1$ to $2^16-1$.  
+Your program should accept an integer in the range between $1$ to $2^{16}-1$.  
 
 For example:   
 124
@@ -62,15 +62,15 @@ For example:
 
 ## Make your Machine to solve above problems
 ### Main function Description
-Once your machine receives a message “math” by user, it will call the welcome_message function to print corresponding message, then use the next input as the parameter of “problem_solver” virtual function in the class “Math_machine” to solve the problem.    
-On the contrary, if your program receives a message “string”, call the welcome_message function to print corresponding message, then use the next input as the parameter of “problem_solver” virtual function in the class “String_machine” to solve the problem.     
+Once your machine receives a message “math” by user, it will call the **welcome_message** function to print corresponding message, then use the next input as the parameter of “**problem_solver**” virtual function in the class “**Math_machine**” to solve the problem.    
+On the contrary, if your program receives a message “string”, call the **welcome_message** function to print corresponding message, then use the next input as the parameter of “**problem_solver**” virtual function in the class “**String_machine**” to solve the problem.     
      
 Make your program solve the corresponding problem until terminated by EOF.    
 
 ### Math and String Class Description     
-constructor: Initialize the protected variable for the machine. (“Math” or “String”)      
-welcome_message: Print the welcome message. The message format has been defined inside the function.      
-problem_solver: Solve the corresponding problem for string or math and print the answer.    
+**constructor:** Initialize the protected variable for the machine. (“Math” or “String”)      
+**welcome_message:** Print the welcome message. The message format has been defined inside the function.      
+**problem_solver:** Solve the corresponding problem for string or math and print the answer.    
 
 ### Sample Input 1
 ```
