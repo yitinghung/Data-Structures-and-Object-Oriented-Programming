@@ -9,11 +9,11 @@ Given an integer “x”, you need to find two integers whose product is equal t
 
 ### Explanation
 When input is: 3   
-[tab]x=3  
-[tab][tab]1\*3=3 → absolute difference is 2    
-[	]x+1=4     
-[tab][tab]1\*4=4 → absolute difference is 3    
-[tab][tab]2\*2=4 → absolute difference is 0     
+&nbsp;&nbsp;x=3  
+&nbsp;&nbsp;&nbsp;&nbsp;1\*3=3 → absolute difference is 2    
+&nbsp;&nbsp;x+1=4     
+&nbsp;&nbsp;&nbsp;&nbsp;1\*4=4 → absolute difference is 3    
+&nbsp;&nbsp;&nbsp;&nbsp;2\*2=4 → absolute difference is 0     
       
 Hence these two integers (2 and 2) have the minimum absolute difference 0 when input is 3.   
 
@@ -32,7 +32,7 @@ For example:
 
 ## The String Problem    
 Given a string “str” which represent a binary number.     
-You’re required to find all substrings which have the same numbers of 0’s and 1’s within the substring. Besides, all 0’s in the substring should be grouped together in the substring, without being separated by any 1’s. e.g.001100 is not allowed. Same restrictions above apply to 1’s, where 1’s in the substring cannot be separated by 0’s. Print the total amount of substrings that you find that fulfills the requirements listed above.     
+You’re required to find all substrings which have the same numbers of 0’s and 1’s within the substring. Besides, all 0’s in the substring should be grouped together in the substring, without being separated by any 1’s. e.g.001100 is not allowed. Same restrictions above apply to 1’s, where 1’s in the substring cannot be separated by 0’s. Print the `total amount` of substrings that you find that fulfills the requirements listed above.     
 
 Note:   
 * Substring cannot be empty.    
@@ -49,7 +49,7 @@ The total amount of these substring is 6. As a result, the answer is 6.
 
 ### Input
 Your program should accept a string.    
-The total length of input string is between 1 and 10000. The characters in the input string only contain 0 and 1.    
+The total `length` of input string is between 1 and 10000. The characters in the input string only contain 0 and 1.    
      
 For example:    
 1111100000    
@@ -62,15 +62,15 @@ For example:
 
 ## Make your Machine to solve above problems
 ### Main function Description
-Once your machine receives a message “math” by user, it will call the **welcome_message** function to print corresponding message, then use the next input as the parameter of “**problem_solver**” virtual function in the class “**Math_machine**” to solve the problem.    
-On the contrary, if your program receives a message “string”, call the **welcome_message** function to print corresponding message, then use the next input as the parameter of “**problem_solver**” virtual function in the class “**String_machine**” to solve the problem.     
+Once your machine receives a message “math” by user, it will call the `welcome_message` function to print corresponding message, then use the next input as the parameter of “`problem_solver`” virtual function in the class “`Math_machine`” to solve the problem.    
+On the contrary, if your program receives a message “string”, call the `welcome_message` function to print corresponding message, then use the next input as the parameter of “`problem_solver`” virtual function in the class “`String_machine`” to solve the problem.     
      
 Make your program solve the corresponding problem until terminated by EOF.    
 
 ### Math and String Class Description     
-**constructor:** Initialize the protected variable for the machine. (“Math” or “String”)      
-**welcome_message:** Print the welcome message. The message format has been defined inside the function.      
-**problem_solver:** Solve the corresponding problem for string or math and print the answer.    
+`constructor:` Initialize the protected variable for the machine. (“Math” or “String”)      
+`welcome_message:` Print the welcome message. The message format has been defined inside the function.      
+`problem_solver:` Solve the corresponding problem for string or math and print the answer.    
 
 ### Sample Input 1
 ```
