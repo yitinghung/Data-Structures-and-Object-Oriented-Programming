@@ -30,10 +30,12 @@ Create a class called Polynomial that includes the following functions:
      
 ### Usage
 ```
+cd hw1
 g++ 0517054_1.cpp -o 0517054_1
 ./0517054_1
 ```
 ```
+cd hw1
 g++ 0517054_2.cpp -o 0517054_2
 ./ 0517054_2
 ```
@@ -49,6 +51,7 @@ Find all substrings which have the same numbers of 0’s and 1’s within the su
      
 ### Usage
 ```
+cd hw2
 g++ 0517054.cpp -o 0517054
 ./0517054
 ```
@@ -72,6 +75,7 @@ of the vector’s size, then don’t do anything.
       
 ### Usage
 ```
+cd hw3
 g++ main.cpp -o main
 ./main
 ```
